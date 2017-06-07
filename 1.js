@@ -1,8 +1,10 @@
+<!--
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8" />
     <title>Page Title</title>
+-->
     <script type="text/javascript">
         
         //方法调用模式
@@ -100,8 +102,10 @@
         
 
     </script>
+<!--
 </head>
 <body>
 
 </body>
 </html>
+-->

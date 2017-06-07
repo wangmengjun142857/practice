@@ -7,7 +7,7 @@
         
         //方法调用模式
         
-        /*var myObject = {
+        var myObject = {
             value: 0,
             increment: function (inc) {
                 this.value += typeof inc === 'number' ? inc : 1;
@@ -17,12 +17,12 @@
             document.writeln(myObject.value);
             myObject.increment(2);
             alert(myObject.value);
-        */
+        
         
         
         //hanoi的一个寻常解
         
-        /* var hanoi = function (disc, src, aux, dst) {
+        var hanoi = function (disc, src, aux, dst) {
             if (disc > 0) {
                 hanoi(disc - 1, src, dst, aux);
                 document.writeln('Move disc '+ disc + 'from ' + src + 'to' + dst);
@@ -30,10 +30,10 @@
             }
         }
         hanoi(3, 'Src', 'Aux', 'Dst');
-        */
         
         
-        /*
+        
+        
         // 定义 walk_the_DOM 函数，它从某个指定的节点开始，按HTML源码中的顺序访问该
         // 树的每个节点。
         // 它会调用一个函数，并以此传递每个节点给它。 walk_the_DOM 调用自身去处理每
@@ -64,13 +64,12 @@
             });
             return results;
         };
-        */
+        
         
         
         // 构建一个带尾递归的函数。因为他会返回自身调用的结果，所以它是尾递归。
         // JavaScript 当前没有对这种形式的递归做出优化。
         
-        /*
         var factotrial = function factorial (i,a) {
             a = a || 1;
             if (i < 2) {
@@ -80,9 +79,9 @@
         };
         
         document.writeln(factorial(4));
-        */
         
-        /*
+        
+        
         var foo = function () {
             var a = 3, b = 5;
             var bar = function () {
@@ -98,7 +97,7 @@
             bar();
             //此时，a=21, b=5.
         };
-        */
+        
 
     </script>
 </head>

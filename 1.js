@@ -98,7 +98,29 @@
             bar();
             //此时，a=21, b=5.
         };
-        
+           
+
+        //二维数组
+        var myarr = new Array(); //先声明一维
+        for (var i=0;i<3;i++){  //一维长度为3
+            myarr[i] = new Array();  //再声明二维
+            for(var j=0;j<6;j++){   //二维长度为6
+            myarr[i][j] = i*j   //赋值，每个数组元素的值为i*j
+        document.write("myarr["+i+"]["+j+"]的值:"+myarr[i][j]+"<br>");
+            }
+        }
+
+        //创建数组
+        var myarr = ['*','##','***','&&','****','##*'];
+        //显示数组长度
+        alert(myarr.length);
+        myarr[7] = '**';
+        //将数组内容输出，完成达到的效果。
+        document.write(myarr[0] + "<br/>" );
+        document.write(myarr[7] + "<br/>" );
+        document.write(myarr[2] + "<br/>" );
+        document.write(myarr[4] + "<br/>" );
+
 
     </script>
 

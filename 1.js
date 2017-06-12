@@ -141,6 +141,26 @@
                     document.write(infos[i][0] + "<br />");
             }
         }
+        
+
+        //定义函数并调用
+        function  app2(x,y)
+          { var sum,x,y;
+            sum = x * y;
+            return sum ; 
+          }
+         req1 = app2(5,6);  //var req1 = app2(5,6); 
+         req2 = app2(2,3);  //var req2 = app2(2,3);
+         sumq = req1 + req2;   //var sumq = req1 + req2; 
+        document.write("req1的值:"+req1+"<br/>");
+        document.write("req2的值:"+req2+"<br/>");
+        document.write(req1+"与"+req2+"和:"+sumq);
+
+
+
+
+
+
 
     </script>
 
